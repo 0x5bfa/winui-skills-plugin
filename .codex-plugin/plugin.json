@@ -1,0 +1,46 @@
+{
+  "name": "winui-skills-plugin",
+  "version": "0.1.0",
+  "description": "Codex skills for WinUI 2, WinUI 3, and WinUI 2 to 3 migration.",
+  "author": {
+    "name": "WinUI Skills Plugin Contributors",
+    "email": "0x5bfa@users.noreply.github.com",
+    "url": "https://github.com/0x5bfa"
+  },
+  "homepage": "https://github.com/0x5bfa/winui-skills-plugin",
+  "repository": "https://github.com/0x5bfa/winui-skills-plugin",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "winui",
+    "winui-2",
+    "winui-3",
+    "windows-app-sdk",
+    "uwp",
+    "xaml",
+    "csharp",
+    "cppwinrt",
+    "migration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WinUI Development",
+    "shortDescription": "Build and migrate WinUI 2 and WinUI 3 apps.",
+    "longDescription": "Codex guidance for production WinUI development, including WinUI 2 for UWP, WinUI 3 with Windows App SDK, XAML/MVVM review practices, and migration planning from WinUI 2 or UWP-style apps to WinUI 3.",
+    "developerName": "WinUI Skills Plugin Contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/0x5bfa/winui-skills-plugin",
+    "privacyPolicyURL": "https://github.com/0x5bfa/winui-skills-plugin",
+    "termsOfServiceURL": "https://github.com/0x5bfa/winui-skills-plugin",
+    "defaultPrompt": [
+      "Review this WinUI view and view model.",
+      "Migrate this WinUI 2 page to WinUI 3.",
+      "Create a WinUI 3 MVVM settings page."
+    ],
+    "brandColor": "#0078D4"
+  }
+}
