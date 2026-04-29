@@ -68,6 +68,19 @@ When migrating WinUI 2/UWP-style code to WinUI 3:
 
 Use `references/migration-winui2-to-winui3.md` as the migration checklist.
 
+## Focused Reference Files
+
+Load only the focused reference that matches the task:
+
+- `references/winui-architect.md`: app structure, MVVM, navigation, services, threading, and interop boundaries.
+- `references/winui-xaml-review.md`: XAML review, resources, accessibility, localization, layout, and binding risks.
+- `references/winui-packaging.md`: MSIX, packaged/unpackaged Windows App SDK apps, Store distribution, runtime deployment, and app identity.
+- `references/winui-migration-from-2-to-3.md`: UWP/WinUI 2 to WinUI 3 with Windows App SDK.
+- `references/winui-migration-from-legacy-to-modern-uwp.md`: legacy UWP with .NET Native to modern UWP with CoreCLR or Native AOT.
+- `references/winui-pitfalls-between-uwp-wasdk.md`: UWP versus Windows App SDK behavior differences and migration traps.
+
+Use `agents/winui-development-expert.md` when the user asks for broad WinUI implementation or review help. Use `agents/winui-migration-expert.md` when the user asks for migration planning or porting work.
+
 ## Code Review Rules
 
 Prioritize issues in this order:
